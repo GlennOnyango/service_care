@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { grey } from "@mui/material/colors";
 
-const pages = ["Services", "Contact Us", "Get quote", "Visit Us","Testimonials"];
+const pages = ["Services","Training", "Contact Us", "Get quote", "Visit Us","Testimonials"];
 
 export default function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
